@@ -7,7 +7,11 @@ function Hero() {
         <img src={logo} alt="logo" className="w-28" />
         <button
           className="black_btn"
-          onClick={() => window.open('https://github.com/sanketCy/')}
+          onClick={() =>
+            window.open(
+              'https://github.com/sanketCy/Article_summarizer_with_OpenAi'
+            )
+          }
         >
           GitHub
         </button>
